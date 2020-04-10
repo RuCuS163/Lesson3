@@ -2,6 +2,11 @@ def div(*args):
     try:
         a = int(input("Введите делимое: "))
         b = int(input("Введите делитель: "))
+        """     
+        a - делимое 
+        b - делитель
+        
+        """
         res = a / b
     except ValueError:
         return 'Value error'
