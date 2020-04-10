@@ -1,0 +1,3 @@
+def my_f(x, y):
+    return 1 / x ** abs(y)
+print(my_f(5, -10))
